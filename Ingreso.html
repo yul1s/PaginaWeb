@@ -1,42 +1,85 @@
 <!DOCTYPE html>
+
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="ingresoStyle.css">
+
+    <style>
+        input[type="button"] {
+        width: 200px;
+        height: 50px;
+        border: none;
+        background: #e28a61;
+        border-radius: 25px;
+        font-size: 20px;
+        color: #e9f4fb;
+        font-weight: 700;
+        cursor: pointer;
+        outline: none;
+        margin: 10px auto;
+        text-align: center;
+        }
+
+    
+        input[type="button"]:hover {
+        border-color: #adadad;
+        background-color: #a85c39;
+        transition: .5s;
+        }
+
+    </style>
+
 </head>
+
+
 
 <body>
     <div class="top-bar">
+
         <a href="PaginaInicio.html"><img src="logo.png" alt="PaginaInicio.html" class="logo" width="230" height="60"></a>
+
     </div>
 
+
     <hr width="89%">
+
 
     <div class="center">
         <h1>Login</h1>
         <form method="post">
 
             <div class="txt_field">
+
                 <input type="text" required>
                 <label>E-mail:</label>
+
             </div>
+
+
 
             <div class="txt_field">
                 <input type="password" required>
                 <label>Contraseña</label>
             </div>
 
-            <div class="signup_link"> ¿No Tienes Cuenta? <a href="Registro.html">Signup</a></div><br>
-            <input type="submit" value="Ingresar"><a href="PaginaInicio.html"></a>
-            <div class="pass"> <a href="recuperarContraseña.html">¿Olvidaste tu contraseña?</a></div>
-            
 
+            <div class="signup_link"> ¿No Tienes Cuenta? <a href="Registro.html">Signup</a></div><br>
+
+            <a href="PaginaInicio.html"><input type="button" value="Ingresar"></a>
+
+            <div class="pass"> <a href="recuperarContraseña.html">¿Olvidaste tu contraseña?</a></div>
+
+            
         </form>
 
-    </div>
-</body>
+  </div>
 
+</body>
 </html>
+
+
 
