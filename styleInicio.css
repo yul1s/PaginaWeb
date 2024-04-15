@@ -1,0 +1,116 @@
+.bodyy{
+	display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+
+.carousel { 
+	position: relative; 
+	width: 770px; 
+	height: 660px; 
+	overflow: hidden; 
+	background-color: #cdcdcd; 
+	margin-top: 80px;
+} 
+
+.carousel-item .slide-image { 
+	width: 770px; 
+	height: 660px; 
+	background-size: cover; 
+	background-repeat: no-repeat; 
+} 
+
+.carousel-item { 
+	position: absolute; 
+	width: 100%; 
+	height: 270px; 
+	border: none; 
+	top: 0; 
+	left: 100%; 
+} 
+
+.carousel-item.active { 
+	left: 0; 
+	transition: all 0.3s ease-out; 
+} 
+
+.carousel-item div { 
+	height: 100%; 
+} 
+
+.red { 
+	background-color: red; 
+} 
+
+.green { 
+	background-color: green; 
+} 
+
+.yellow { 
+	background-color: yellow; 
+} 
+
+.violet { 
+	background-color: violet; 
+}
+
+.menu{
+	margin-right: 160px;
+}
+
+.menu ul{
+	float: right;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.menu a:hover{
+    background: linear-gradient(#dd3333, #d6cabf);
+    border-radius: 15px;
+    opacity: 0.8;
+}
+
+.menu li{
+    float: right;
+}
+
+.logo{
+	margin-left: 100px;
+}
+
+.searching button:hover{
+    background:  linear-gradient(#dd3333, #d6cabf);
+    border-radius: 15px;
+}
+
+.searching{
+    margin-top: 15px;
+	margin-right: 20px;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+footer {
+	background-color: #333;
+	color: #c45d5d;
+	text-align: center;
+	position: fixed;
+	padding: 10px;
+	bottom: 0;
+	width: 100%;
+	height: 30px;
+	left: 0%;
+}
